@@ -1,8 +1,6 @@
 name: Monitor sources and build APKs
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
       force_build:
